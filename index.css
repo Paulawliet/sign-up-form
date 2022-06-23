@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 535px 1fr;
+}
+.odin_div{
+    position: absolute;
+    background-color: rgb(0,0,0,0.4);
+    left: 0;
+    right: 0;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.odin_pic{
+    width: 100px;
+}
+.odin_text{
+    color: white;
+    font-size:70px;
+    font-family: 'Norse', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left_sidebar{
+    position: relative;
+    
+}
+.leaf_pic{
+    width: 100%;
+}
+
+.flex_form_main{
+    display:flex
+    
+}
+
+.main_content_middle{
+    box-shadow: 0px 0px 12px #888888;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
