@@ -16,6 +16,10 @@ body{
     align-items: center;
 
 }
+.leaf_pic{
+    height: 100%;
+    margin-bottom: 0;
+}
 .odin_pic{
     width: 100px;
 }
