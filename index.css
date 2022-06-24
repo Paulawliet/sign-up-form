@@ -53,6 +53,20 @@ body{
     font-weight: 500;
     font-size: 12px;
 }
+input:focus{
+    outline: none;
+    border-color: rgb(83, 178, 255);
+}
+input{
+    border-radius: 4px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 20px;
+    width: 190px;
+    
+    
+}
 .main_content{
     display: grid;
     grid-template-rows: 200px 300px 1fr;
@@ -82,4 +96,15 @@ body{
     font-family: Roboto,sans-serif;
     font-size: 17px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.bottom_details{
+    font-family: Roboto,sans-serif;
+    font-size: 17px;
+}
+.login{
+    text-decoration: none;
+    color: #596d48;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
 }
